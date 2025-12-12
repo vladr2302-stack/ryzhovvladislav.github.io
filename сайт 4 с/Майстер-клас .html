@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Майстерклас з розпису пряників — Кав'ярня</title>
+<style>
+:root{--accent:#b85a2a;--bg:#fff8f2;--card:#ffffff}
+body{font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);color:#333;margin:0}
+.container{max-width:1100px;margin:40px auto;padding:20px}
+header{display:flex;gap:20px;align-items:center}
+.logo{width:68px;height:68px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#f0a97b);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+h1{font-size:1.8rem;margin:0}
+.lead{margin-top:8px;color:#5b5b5b}
+.card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,0.06);margin-top:20px}
+.grid{display:grid;grid-template-columns:1fr 360px;gap:18px}
+.description p{line-height:1.6}
+.features{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.feature{display:flex;gap:12px;align-items:center}
+.btn{display:inline-block;background:var(--accent);color:white;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.gallery img{width:100%;height:220px;object-fit:cover;border-radius:10px}
+footer{margin-top:26px;text-align:center;color:#6a6a6a;font-size:0.95rem}
+ background-image: url('фон2.png');
+  background-position: center;   
+  background-repeat: no-repeat;   
+  background-size: cover;         
+  background-attachment: fixed; 
+
+@media (max-width:900px){.grid{grid-template-columns:1fr}.gallery img{height:160px}}
+</style>
+</head>
+<body>
+<header>
+<h1 style="font-family:'Playfair Display',serif; font-size:48px;">Майстер-класи</h1>
+  <nav>
+  <li><a href="головна.html">Головна</a> </li>
+    <li><a href="меню.html">Меню</a></li>
+    <li><a href="галерея.html">Галерея</a></li>
+    <li><a href="контакти.html">Контакти</a></li>
+	<li><a href="Майстер-клас.html">Майстер-клас</a></li>
+  </nav>
+</header>
+<div class="container" style="margin-top:20px">
+<header>
+<div>
+<h1>Майстерклас: розпис пряників у кав'ярні</h1>
+<div class="lead">Тепла атмосфера, гарячі напої та творчість — приходьте створювати смачні прикраси власними руками.</div>
+</div>
+</header>
+
+
+<div class="card grid">
+<div class="description">
+<h2>Короткий опис</h2>
+<p>Запрошуємо на наш майстерклас із розпису пряників — 2 години практики під керівництвом кондитера. Ви отримаєте готові пряники, професійні глазурі та інструменти, навчитесь базовим технікам розпису (контури, заливка, трафарети) і заберете свої роботи додому. Подія підходить для всіх вікових груп — приходьте з друзями чи сім'єю!</p>
+
+
+<div class="features">
+<div class="feature"><strong>📅 Дата:</strong>&nbsp; щосуботи о 14:00</div>
+<div class="feature"><strong>⏱ Тривалість:</strong>&nbsp; 2 години</div>
+<div class="feature"><strong>💵 Вартість:</strong>&nbsp; 350 грн з особи (всі матеріали включені)</div>
+</div>
+
+
+<p style="margin-top:12px">Попередній запис обов'язковий — кількість місць обмежена. За бажанням, можемо організувати майстерклас для великої компанії у зручний для вас час.</p>
+
+
+<a class="btn" href="#booking">Забронювати місце</a>
+
+
+<h3 style="margin-top:18px">Фотогалерея</h3>
+<div class="gallery">
+<!-- Замініть src на ваші реальні фото -->
+<img src="images/ginger1.jpg" alt="Розпис пряників — фото 1">
+<img src="images/ginger2.jpg" alt="Розпис пряників — фото 2">
+<img src="images/ginger3.jpg" alt="Розпис пряників — фото 3">
+</div>
+</div>
+
+
+<aside>
+<div style="padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#fff8f0);box-shadow:0 6px 18px rgba(0,0,0,0.04)">
+<h3 style="margin-top:0">Деталі й умови</h3>
+<ul style="line-height:1.7;padding-left:18px">
+<li>Усі матеріали надаються.</li>
+<li>Підходить для дітей від 8 років в супроводі дорослого.</li>
+<li>Тривалість: ~2 години.</li>
+<li>Оплата готівкою або карткою на місці.</li>
+</ul>
+
+
+<div style="margin-top:12px">
+<a class="btn" href="tel:+380000000000">+38 (0xx) xxx xx xx</a>
+</div>
+</div>
+
+
+<div style="margin-top:14px;font-size:0.95rem;color:#666">Адреса: вул. Прикладна, 13 — наш зал на 2-му поверсі. Підпишіться на оновлення у соцмережах, щоб не пропустити нові дати.</div>
+
+
+</aside>
+</div>
+
+
+<footer>
+© Кав'ярня — Майстеркласи та події
+</footer>
+</div>
+</body>
+</html>
